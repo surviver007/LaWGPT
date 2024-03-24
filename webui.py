@@ -197,8 +197,9 @@ def main(
             gr.components.Checkbox(label="Stream output",  value=True),
         ],
         outputs=[
-            gr.inputs.Textbox(
-                lines=8,
+            # gr.inputs.Textbox(    todo 修改
+            gr.Textbox(
+                    lines=8,
                 label="Output",
             )
         ],
